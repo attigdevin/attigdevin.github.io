@@ -1,0 +1,141 @@
+.labeledItems {
+    display:table;
+}
+
+.labeledItem {
+    display:table-row;
+}
+
+.labeledItem label {
+    display:table-cell;
+    text-align:right;
+    padding-right: 0.5em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+#menuBar {
+    width:100%;
+    font-size: 1.25em;
+    text-align: right;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #7F7F7F;
+    background: linear-gradient(#888,#666);
+    box-shadow: 0px 0px 12px black;
+}
+
+#menuBar a {
+    margin: 0 0.2em;
+    padding: 0 0.2em; 
+    display: inline-block;
+    line-height: 1.5em;
+    transition: box-shadow 0.3s;
+    color: #DDD;
+    text-decoration:none;
+}
+
+#menuBar a:hover {
+    box-shadow:0px 0px 1em black;
+}
+
+#menuBar a:active {
+    box-shadow:0px 0px 1em black,inset 0px 0px 0.5em black;
+}
+
+body {
+    margin:0;
+    background-color: #ff6666;
+    background: linear-gradient(#ff6666,#CF7070);
+    color: black;
+    font-family: sans-serif;
+    padding: 0 1em;/**/
+    padding-top: 4.375em;
+    font-size:1.5em;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background:#AAA;
+    padding:1em;
+    margin:auto;
+    max-width: 1000px;
+    box-shadow: 0px 0px 0.5em black, inset 0px 0px 0.125em black;
+    border-radius:4px;
+}
+
+a.dec {
+    text-decoration:none;
+}
+a.dec:hover {
+    text-decoration:underline;
+}
+
+.image-toggle img {
+    width:100%;
+    display:none;
+}
+
+.button {
+    display: inline-block;
+    font-size: 0.8em;
+    background: linear-gradient(#69d,#58d);
+    background-color: #69d;
+    border-radius: 3px;
+    font-weight:bold;
+    border: none;
+    padding: 0.2em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s,color 0.3s;
+    border:2px solid #555;
+    color:#333;
+}
+.button:active {
+    box-shadow:inset 0px 0px 8px #555;
+    border:2px solid black;
+    color:#000;
+}
+.button:hover {
+    border:2px solid black;
+    color:#000;
+}
+
+a.anchor {
+    display:block;
+    position:relative;
+    top:-2em;
+    visibility:hidden;
+}
+
+p {
+    text-indent: 4ex;
+    margin:0.2em 0;
+    font-size:0.8em;
+}
+
+hr {
+    margin:1em 0;
+    border-style:none;
+    height:2px;
+    background-color:black;
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 25%,rgba(0,0,0,0.75) 75%,rgba(0,0,0,0) 100%)
+}
+
+h2 {
+    margin:0.1em 0;
+}
+
+h1 {
+    padding-left: 2em;
+    text-decoration: underline;
+    margin:0.2em;
+}
+
+html {
+    min-height:100%;
+}
