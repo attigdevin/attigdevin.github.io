@@ -6,7 +6,7 @@ function imageToggle(e){
     if (index >= 0){
         var t = imageToggles[index];
         t.on = !t.on ;
-        t.getElementsByTagName("img")[0].style.display = t.on ? "inline" : "none";
+        t.getElementsByTagName("img")[0].style.display = t.on ? "block" : "none";
     }
 }
 
