@@ -48,7 +48,7 @@
 body {
     margin:0;
     background-color: #ff6666;
-    background: linear-gradient(#ff6666,#CF7070);
+    background: linear-gradient(#ff6666,#CF7070) fixed;
     color: black;
     font-family: sans-serif;
     padding: 3em 1em 1em 1em;
